@@ -1,0 +1,3446 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* ohealth
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0alpha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-03 17:04+0000\n"
+"PO-Revision-Date: 2012-12-03 17:04+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ohealth
+#: field:ohealth.patient.evaluation,mood:0
+msgid "Mood"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.prescription.line,short_comment:0
+msgid "Short comment on the specific drug"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_diagnostic_hypothesis_view
+msgid "Diagnostic Hypothesis"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_product_product
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,product:0
+msgid "Product"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament.category:0
+#: field:ohealth.medicament.category,parent_id:0
+msgid "Parent"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,end_treatment:0
+#: help:ohealth.medication.template,start_treatment:0
+msgid "Date of start of Treatment"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.bed,bed_type:0
+msgid "Low Air Loss"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient.evaluation,loc_verbal:0
+msgid "Glasgow - Verbal"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medication.dosage:0
+msgid "Ohealth Medication Dosage"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.line:0
+#: field:ohealth.prescription.line,quantity:0
+msgid "Quantity"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,respiratory_rate:0
+msgid "Respiratory Rate"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_physician_view
+#: view:ohealth.appointment:0
+#: field:ohealth.appointment,doctor:0
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,doctor:0
+#: view:ohealth.patient.medication:0
+#: field:ohealth.patient.medication,doctor:0
+msgid "Physician"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.insurance:0
+msgid "Ohealth Insurance"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_patient_disease
+msgid "ohealth.patient.disease"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_hospital_or_view
+msgid "Hospital Or"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_hospital_building
+msgid "ohealth.hospital.building"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,object_recognition:0
+msgid "Object Recognition"
+msgstr ""
+
+#. module: ohealth
+#: help:res.partner,is_insurance_company:0
+msgid "Check if the party is an Insurance Company"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,pregnancy_warning:0
+msgid "Pregnancy warning"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,vocabulary:0
+msgid "Check this box if the patient lacks basic intelectual capacity, when she/he can not describe elementary objects"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,dose:0
+msgid "Dose"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_res_partner
+msgid "Partner"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_medicament
+msgid "ohealth.medicament"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,is_infectious:0
+msgid "Infectious Disease"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_occupation_view
+msgid "Occupation"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.vaccination:0
+#: field:ohealth.vaccination,dose:0
+msgid "Dose #"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_medication_template
+msgid "ohealth.medication.template"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_specialty
+msgid " Specialty"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,status:0
+msgid "healed"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_eyes:0
+msgid "Opens eyes in response to painful stimuli"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.insurance,insurance_type:0
+#: selection:res.partner,insurance_company_type:0
+msgid "State"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,bpm:0
+msgid "Heart Rate"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,childbearing_age:0
+msgid "Potential for Childbearing"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medicament,active_component:0
+msgid "Active Component"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,therapeutic_action:0
+msgid "Therapeutic effect"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_patient_view
+#: view:ohealth.appointment:0
+#: field:ohealth.appointment,patient:0
+#: view:ohealth.patient:0
+#: field:ohealth.patient,patient:0
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,patient_id:0
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,patient:0
+#: view:ohealth.patient.medication:0
+#: field:ohealth.patient.medication,name:0
+#: field:ohealth.patient.medication,patient:0
+#: view:ohealth.prescription.order:0
+#: field:ohealth.prescription.order,patient:0
+#: view:ohealth.vaccination:0
+#: field:ohealth.vaccination,patient_id:0
+#: field:res.partner,is_patient:0
+msgid "Patient"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.drug.form:0
+#: field:ohealth.drug.form,name:0
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,form:0
+msgid "Form"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.pathology.category:0
+msgid "Ohealth Pathology Category"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.dosage,abbreviation:0
+msgid "Dosage abbreviation, such as tid in the US or tds in the UK"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient,vaccinations:0
+msgid "Vaccinations"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_patient_evaluation
+msgid " Patient Evaluation"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_procedure
+msgid "ohealth.procedure"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,frequency_prn:0
+msgid "Use it as needed, pro re nata"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,diagnosed_date:0
+msgid "Date of Diagnosis"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,ldl:0
+msgid "Last LDL"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.pathology.category:0
+#: field:ohealth.pathology.category,parent_id:0
+msgid "Parent Category"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,age:0
+msgid "Age"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,evaluation_type:0
+msgid "Periodic control"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.medication.template,duration_period:0
+#: selection:ohealth.medication.template,frequency_unit:0
+msgid "hours"
+msgstr ""
+
+#. module: ohealth
+#: field:res.partner,relative_id:0
+msgid "Contact"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.specialty:0
+msgid "Ohealth Specialty"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.medication.template,duration_period:0
+msgid "Treatment period"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.appointment:0
+#: field:ohealth.appointment,consultations:0
+#: help:ohealth.appointment,consultations:0
+msgid "Consultation Services"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_diagnostic_hypothesis
+msgid "ohealth.diagnostic_hypothesis"
+msgstr ""
+
+#. module: ohealth
+#: field:res.partner,lastname:0
+#: help:res.partner,lastname:0
+msgid "Last Name"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.hospital.ward,private:0
+msgid "Check this option for private room"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,adverse_reaction:0
+#: view:ohealth.patient.medication:0
+#: field:ohealth.patient.medication,adverse_reaction:0
+msgid "Adverse Reactions"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,tremor:0
+msgid "If associated  to a disease, please encode it on the patient disease history"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_operational_sector_view
+#: view:ohealth.family:0
+#: field:ohealth.family,operational_sector:0
+#: field:ohealth.operational_area,operational_sector:0
+msgid "Operational Sector"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,respiratory_rate:0
+msgid "Respiratory rate expressed in breaths per minute"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.insurance:0
+#: field:ohealth.insurance,owner:0
+msgid "Owner"
+msgstr ""
+
+#. module: ohealth
+#: constraint:product.product:0
+msgid "You provided an invalid \"EAN13 Barcode\" reference. You may use the \"Internal Reference\" field instead."
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.order:0
+#: field:ohealth.prescription.order,user_id:0
+msgid "Prescribing Doctor"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.insurance:0
+#: field:ohealth.insurance,category:0
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,category:0
+msgid "Category"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_prescription_order_view
+msgid "Prescription Order"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_pathology_category
+msgid "ohealth.pathology.category"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.disease_group.members:0
+#: field:ohealth.disease_group.members,disease_group_id:0
+msgid "Group"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.family_member,member:0
+msgid "Family Member Name"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.disease,is_infectious:0
+msgid "Check if the patient has an infectioustransmissible disease"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,doctor:0
+msgid "Doctor"
+msgstr ""
+
+#. module: ohealth
+#: help:res.partner,is_patient:0
+msgid "Check if the party is a patient"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.family_member,member:0
+msgid "Member"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,height:0
+msgid "Height in centimeters, eg 175"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_insurance
+msgid "ohealth.insurance"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.physician,health_professional:0
+msgid "Health Professional's Name, from the partner list"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.diagnostic_hypothesis:0
+#: field:ohealth.diagnostic_hypothesis,evaluation_id:0
+#: view:ohealth.directions:0
+#: field:ohealth.directions,evaluation_id:0
+#: view:ohealth.secondary_condition:0
+#: field:ohealth.secondary_condition,evaluation_id:0
+#: view:ohealth.signs_and_symptoms:0
+#: field:ohealth.signs_and_symptoms,evaluation_id:0
+msgid "Evaluation"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.drug.form:0
+msgid "Ohealth Drug Form"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_ethnicity
+msgid "ohealth.ethnicity"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.hospital.bed,state:0
+#: field:ohealth.hospital.ward,state:0
+msgid "Status"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.vaccination:0
+#: field:ohealth.vaccination,date:0
+msgid "Date"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.vaccination,institution:0
+msgid "Medical Center where the patient is being or was vaccinated"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,hba1c:0
+msgid "Last Glycated Hb level. Can be approximative."
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_motor:0
+msgid "Makes no movement"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament.category:0
+msgid "Ohealth Medicament Category"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_pathology_category
+msgid " Pathology Category"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_medication_template
+msgid " Medication Template"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.family,members:0
+msgid "Family Members"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient,general_info:0
+msgid "General information about the patient"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_operational_sector
+msgid " Operational Sector"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.bed:0
+#: field:ohealth.hospital.bed,name:0
+#: field:product.product,is_bed:0
+msgid "Bed"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_motor:0
+msgid "Flexion / Withdrawal to painful stimuli"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.pathology:0
+#: field:ohealth.pathology,protein:0
+msgid "Protein involved"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,signs_and_symptoms:0
+msgid "Enter the Signs and Symptoms                                         for the patient in this evaluation."
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.vaccination:0
+#: field:ohealth.vaccination,vaccine:0
+#: field:product.product,is_vaccine:0
+msgid "Vaccine"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,dose_unit:0
+msgid "dose unit"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_procedure_view
+#: view:ohealth.directions:0
+#: field:ohealth.directions,procedure_id:0
+msgid "Procedure"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,praxis:0
+msgid "Praxis"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_family_view
+#: view:ohealth.family:0
+#: field:ohealth.family,name:0
+#: view:ohealth.family_member:0
+#: field:ohealth.family_member,family_id:0
+#: view:ohealth.patient:0
+#: field:ohealth.patient,family:0
+msgid "Family"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.pathology,protein:0
+msgid "Name of the protein(s) affected"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,height:0
+msgid "Height"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient,marital_status:0
+msgid "Marital Status"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.pathology,groups:0
+msgid "Specify the groups this pathology belongs. Some automated processes act upon the code of the group"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.medicament.category,childs:0
+msgid "Children"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_ethnicity_view
+msgid "Ethnicity"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_drug_route_view
+msgid "Drug Route"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,storage:0
+msgid "Storage Conditions"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,allergy_type:0
+msgid "Misc Allergy"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,microwave:0
+msgid "Microwave"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_medicament
+msgid " Medicament"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.family_member:0
+msgid "Party"
+msgstr ""
+
+#. module: ohealth
+#: help:res.partner,internal_user:0
+msgid "In GNU Health is the user (doctor, nurse) that logins.When the party is a doctor or a health professional, it will be the user that maps the doctor's party name. It must be present."
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,composition:0
+msgid "Composition"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.directions:0
+msgid "Ohealth Directions"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.appointment,urgency:0
+msgid "Urgent"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,indication:0
+msgid "Choose a disease for this medicament from the disease list. It can be an existing disease of the patient or a prophylactic."
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.pathology,category:0
+msgid "Select the main category for this disease This is usuallyassociated to the standard. For instance, the chapter on the ICD-10will be the main category for de disease"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.ethnicity:0
+#: field:ohealth.ethnicity,notes:0
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,notes:0
+msgid "Notes"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.ward,gender:0
+msgid "Men Ward"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,tv:0
+msgid "Television"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,common_dosage:0
+msgid "Common / standard dosage frequency for this medicament"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_family
+msgid " Family"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.disease_group.members:0
+#: field:ohealth.disease_group.members,name:0
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,pathology:0
+#: help:ohealth.patient.disease,pathology:0
+msgid "Disease"
+msgstr ""
+
+#. module: ohealth
+#: field:res.partner,alias:0
+msgid "Alias"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient.disease,status:0
+msgid "Status of the disease"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,duration:0
+msgid "Period that the patient must take the medication. in minutes, hours, days, months, years or indefinately"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,status:0
+msgid "improving"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.operational_sector:0
+#: field:ohealth.operational_sector,name:0
+msgid "Op. Sector"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_ethnicity
+msgid " Ethnicity"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,cod:0
+msgid "Cause of Death"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,is_active:0
+msgid "Active disease"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,dob:0
+msgid "DoB"
+msgstr ""
+
+#. module: ohealth
+#: field:res.partner,internal_user:0
+msgid "Internal User"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_specialty
+msgid "ohealth.specialty"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_medicament_category
+msgid " Medicament Category"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient.evaluation,secondary_conditions:0
+msgid "Secondary Conditions"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_verbal:0
+msgid "Incomprehensible sounds"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.vaccination,vaccine:0
+msgid "Vaccine Name. Make sure that the vaccine (product) has all the proper information at product level. Information such as provider, supplier code, tracking number, etc.. This  information must always be present. If available, please copy / scan the vaccine leaflet and attach it to this record"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.vaccination:0
+#: field:ohealth.vaccination,next_dose_date:0
+msgid "Next Dose"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_patient_disease_view
+msgid "Patient Disease"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,head_circumference:0
+msgid "Head circumference"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,weight:0
+msgid "Weight in Kilos"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,treatment_description:0
+msgid "Treatment Description"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_directions
+msgid "ohealth.directions"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.appointment,patient:0
+#: help:ohealth.patient,patient:0
+msgid "Patient Name"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.medication.template,duration_period:0
+msgid "years"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.hospital.bed,telephone_number:0
+msgid "Telephone number / Extension"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.insurance.plan:0
+#: field:ohealth.insurance.plan,notes:0
+#: view:ohealth.physician:0
+#: field:ohealth.physician,info:0
+msgid "Extra info"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient.evaluation,signs_and_symptoms:0
+msgid "Signs and Symptoms"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,mood:0
+msgid "Disgust"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament:0
+msgid "Ohealth Medicament"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient,rh:0
+msgid "Rh"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,hip:0
+msgid "Hip"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_prescription_order
+msgid " Prescription Order"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,evaluation_type:0
+msgid "Emergency"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.hospital.ward,bio_hazard:0
+msgid "Check this option if there is biological hazard"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,frequency_prn:0
+msgid "PRN"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.insurance.plan:0
+#: field:ohealth.insurance.plan,is_default:0
+msgid "Default plan"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_specialty_view
+#: view:ohealth.appointment:0
+#: field:ohealth.appointment,speciality:0
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,specialty:0
+#: view:ohealth.physician:0
+#: field:ohealth.physician,specialty:0
+#: view:ohealth.specialty:0
+#: field:ohealth.specialty,name:0
+msgid "Specialty"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.medication.template,frequency_unit:0
+msgid "weeks"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_medication_dosage
+msgid "ohealth.medication.dosage"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.prescription.order,prescription_line:0
+msgid "Prescription line"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient.evaluation,diagnostic_hypothesis:0
+msgid "Hypotheses / DDx"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_patient
+msgid "ohealth.patient"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_prescription_line
+msgid "ohealth.prescription.line"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_drug_route
+msgid "ohealth.drug.route"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,whr:0
+msgid "Waist to hip ratio"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_drug_form
+msgid " Drug Form"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.insurance.plan,is_default:0
+msgid "Check if this is the default plan when assigning this insurance company to a patient"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medication.dosage:0
+#: field:ohealth.medication.dosage,abbreviation:0
+msgid "Abbreviation"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,disease_severity:0
+msgid "Mild"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.dosage,code:0
+msgid "Dosage Code,for example: SNOMED 229798009 = 3 times per day"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.ethnicity:0
+msgid "Ohealth Ethnicity"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.bed,bed_type:0
+msgid "Low Bed"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medicament,pregnancy_category:0
+msgid "** FDA Pregancy Categories ***\n"
+"CATEGORY A :Adequate and well-controlled human studies have failed to demonstrate a risk to the fetus in the first trimester of pregnancy (and there is no evidence of risk in later trimesters).\n"
+"\n"
+"CATEGORY B : Animal reproduction studies have failed todemonstrate a risk to the fetus and there are no adequate and well-controlled studies in pregnant women OR Animal studies have shown an adverse effect, but adequate and well-controlled studies in pregnant women have failed to demonstrate a risk to the fetus in any trimester.\n"
+"\n"
+"CATEGORY C : Animal reproduction studies have shown an adverse effect on the fetus and there are no adequate and well-controlled studies in humans, but potential benefits may warrant use of the drug in pregnant women despite potential risks. \n"
+"\n"
+" CATEGORY D : There is positive evidence of human fetal  risk based on adverse reaction data from investigational or marketing experience or studies in humans, but potential benefits may warrant use of the drug in pregnant women despite potential risks.\n"
+"\n"
+"CATEGORY X : Studies in animals or humans have demonstrated fetal abnormalities and/or there is positive evidence of human fetal risk based on adverse reaction data from investigational or marketing experience, and the risks involved in use of the drug in pregnant women clearly outweigh potential benefits.\n"
+"\n"
+"CATEGORY N : Not yet classified"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,end_treatment:0
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,date_stop_treatment:0
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,evaluation_endtime:0
+msgid "End"
+msgstr ""
+
+#. module: ohealth
+#: help:res.partner,is_doctor:0
+msgid "Check if the party is a health professional"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_pathology
+msgid "ohealth.pathology"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.family_member,family_id:0
+msgid "Family code"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medication.template:0
+msgid "Ohealth Medication Template"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,bio_hazard:0
+msgid "Bio Hazard"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.line:0
+#: field:ohealth.prescription.line,prnt:0
+msgid "Print"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_patient_evaluation_view
+msgid "Patient Evaluation"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_family_member_view
+msgid "Family Member"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.appointment,appointment_type:0
+#: field:ohealth.patient.evaluation,evaluation_type:0
+msgid "Type"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,mood:0
+msgid "Flat"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_insurance_plan
+msgid " Insurance Plan"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.hospital.or,name:0
+msgid "Name of the Operating Room"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,dosage:0
+msgid "Dosage Instructions"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.appointment,appointment_type:0
+msgid "Outpatient"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medicament,product:0
+msgid "Product Name"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.bed:0
+#: field:ohealth.hospital.bed,ward:0
+msgid "Ward"
+msgstr ""
+
+#. module: ohealth
+#: sql_constraint:ohealth.family:0
+msgid "Family Code must be unique!"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_hospital_ward
+msgid " Hospital Ward"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.operational_sector:0
+msgid "Ohealth Operational_Sector"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,reliable_info:0
+msgid "Reliable"
+msgstr ""
+
+#. module: ohealth
+#: field:res.partner,is_work:0
+msgid "Work"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.disease_group.members:0
+msgid "Ohealth Disease_Group Members"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.insurance,insurance_type:0
+#: field:res.partner,insurance_company_type:0
+msgid "Insurance Type"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient,sex:0
+msgid "Male"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_root
+#: model:ir.ui.menu,name:ohealth.ohealth_root_sub
+#: view:res.partner:0
+msgid "OHealth"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,duration:0
+msgid "Treatment duration"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,calculation_ability:0
+msgid "Check this box if the patient can not do simple arithmetic problems"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.line:0
+#: field:ohealth.prescription.line,refills:0
+msgid "Refills #"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,evaluation_type:0
+msgid "Phone call"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_hospital_unit
+msgid "ohealth.hospital.unit"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.family:0
+msgid "Ohealth Family"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.medication.template,duration_period:0
+#: selection:ohealth.medication.template,frequency_unit:0
+msgid "days"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_vaccination
+msgid " Vaccination"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,allergy_type:0
+msgid "Misc Contraindication"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,ssn:0
+msgid "SSN"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_signs_and_symptoms
+msgid " Signs And Symptoms"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medicament,dosage:0
+msgid "Dosage / Indications"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.line:0
+#: field:ohealth.prescription.line,review:0
+msgid "Review"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,start_treatment:0
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,date_start_treatment:0
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,evaluation_start:0
+msgid "Start"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient,medications:0
+msgid "Medications"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,present_illness:0
+msgid "Present Illness"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.bed,bed_type:0
+msgid "Clinitron"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.medication,doctor:0
+msgid "Physician who prescribed the medicament"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.appointment:0
+#: field:ohealth.appointment,appointment_date:0
+msgid "Date and Time"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient,marital_status:0
+msgid "Separated"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_signs_and_symptoms
+msgid "ohealth.signs_and_symptoms"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,praxis:0
+msgid "Check this box if the patient is unable to make voluntarymovements"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,derived_from:0
+msgid "Derived from"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.hospital.building,name:0
+msgid "Name of the building within the institution"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,dehydration:0
+msgid "Check this box if the patient show signs of dehydration. If associated  to a disease, please encode the  correspondent disease on the patient disease history. For example, Volume Depletion, E86 in ICD-10 encoding"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient,primary_care_doctor:0
+msgid "Current primary care / family doctor"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient.evaluation,loc_eyes:0
+msgid "Glasgow - Eyes"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.hospital.ward,number_of_beds:0
+msgid "Number of patients per ward"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_family_member
+msgid " Family Member"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_verbal:0
+msgid "Confused, disoriented"
+msgstr ""
+
+
+#. module: ohealth
+#: help:ohealth.pathology,name:0
+msgid "Disease name"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,diastolic:0
+msgid "Diastolic Pressure"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,hba1c:0
+msgid "Glycated Hemoglobin"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_prescription_line_view
+msgid "Prescription Line"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,loc:0
+msgid "Level of Consciousness"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.bed,state:0
+msgid "Reserved"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_dose_unit_view
+msgid "Dose Unit"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.pathology:0
+#: field:ohealth.pathology,gene:0
+msgid "Gene"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.medication:0
+#: field:ohealth.patient.medication,discontinued:0
+msgid "Discontinued"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_occupation
+msgid " Occupation"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.signs_and_symptoms,sign_or_symptom:0
+msgid "Sign"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,primary_care_doctor:0
+msgid "Primary Care Doctor"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.drug.form:0
+#: field:ohealth.drug.form,code:0
+#: view:ohealth.drug.route:0
+#: field:ohealth.drug.route,code:0
+#: view:ohealth.ethnicity:0
+#: field:ohealth.ethnicity,code:0
+#: view:ohealth.hospital.building:0
+#: field:ohealth.hospital.building,code:0
+#: view:ohealth.hospital.unit:0
+#: field:ohealth.hospital.unit,code:0
+#: view:ohealth.medication.dosage:0
+#: field:ohealth.medication.dosage,code:0
+#: view:ohealth.occupation:0
+#: field:ohealth.occupation,code:0
+#: view:ohealth.pathology:0
+#: field:ohealth.pathology,code:0
+#: view:ohealth.pathology.group:0
+#: field:ohealth.pathology.group,code:0
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,pcs_code:0
+#: view:ohealth.procedure:0
+#: field:ohealth.procedure,name:0
+#: view:ohealth.specialty:0
+#: field:ohealth.specialty,code:0
+msgid "Code"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient,current_insurance:0
+msgid "Insurance information. You may choose from the different insurances belonging to the patient"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,orientation:0
+msgid "Orientation"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,information_source:0
+msgid "Source"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient,critical_info:0
+msgid "Write any important information on the patient's disease, surgeries, allergies, ..."
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient,sex:0
+msgid "Sex"
+msgstr ""
+
+#. module: ohealth
+#: help:res.partner,is_pharmacy:0
+msgid "Check if the party is a Pharmacy"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_family
+msgid "ohealth.family"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medication.dosage:0
+#: field:ohealth.medication.dosage,name:0
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,common_dosage:0
+#: field:ohealth.medication.template,frequency:0
+msgid "Frequency"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.hospital.bed,bed_type:0
+msgid "Bed Type"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.medication:0
+#: field:ohealth.patient.medication,course_completed:0
+msgid "Course Completed"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.pathology.group,name:0
+msgid "Group name"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.drug.route:0
+#: field:ohealth.drug.route,name:0
+#: view:ohealth.hospital.or:0
+#: field:ohealth.hospital.or,unit:0
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,unit:0
+msgid "Unit"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,age:0
+msgid "Age when diagnosed"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,diagnostic_hypothesis:0
+msgid "Presumptive Diagnosis. If no diagnosis can be made, encode the main sign or symptom."
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.signs_and_symptoms,sign_or_symptom:0
+msgid "Subjective / Objective"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.ward,gender:0
+msgid "Unisex"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,status:0
+msgid "unchanged"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient,diseases:0
+msgid "Mark if the patient has died"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,active_component:0
+msgid "Active component"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_disease_group_members
+msgid " Disease Group Members"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.pathology.category,childs:0
+msgid "Children Category"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,user_id:0
+msgid "Last Changed by"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.order:0
+#: field:ohealth.prescription.order,notes:0
+msgid "Prescription Notes"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_operational_area
+msgid "ohealth.operational_area"
+msgstr ""
+
+#. module: ohealth
+#: help:res.partner,is_institution:0
+msgid "Check if the party is a Medical Center"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.vaccination,vaccine_lot:0
+msgid "Please check on the vaccine (product) production lot numberand tracking number when available !"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient.evaluation,loc_motor:0
+msgid "Glasgow - Motor"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+msgid "Ohealth Patient Evaluation"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.medication:0
+msgid "Ohealth Patient Medication"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_medicament_category
+msgid "ohealth.medicament.category"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.bed,bed_type:0
+msgid "Circo Electric"
+msgstr ""
+
+#. module: ohealth
+#: help:product.product,is_medicament:0
+msgid "Check if the product is a medicament"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,violent:0
+msgid "Check this box if the patient is agressive or violent at the moment"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.physician:0
+msgid "Ohealth Physician"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,status:0
+msgid "worsening"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.or:0
+msgid "Ohealth Hospital Or"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.prescription.order,prescription_id:0
+msgid "Type in the ID of this prescription"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.ethnicity:0
+#: field:ohealth.ethnicity,name:0
+#: view:ohealth.hospital.building:0
+#: field:ohealth.hospital.building,name:0
+#: view:ohealth.hospital.or:0
+#: field:ohealth.hospital.or,name:0
+#: view:ohealth.hospital.unit:0
+#: field:ohealth.hospital.unit,name:0
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,name:0
+#: field:ohealth.insurance,name:0
+#: field:ohealth.insurance.plan,name:0
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,name:0
+#: view:ohealth.medicament.category:0
+#: field:ohealth.medicament.category,name:0
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,name:0
+#: view:ohealth.occupation:0
+#: field:ohealth.occupation,name:0
+#: view:ohealth.operational_area:0
+#: field:ohealth.operational_area,name:0
+#: view:ohealth.pathology:0
+#: field:ohealth.pathology,name:0
+#: view:ohealth.pathology.group:0
+#: field:ohealth.pathology.group,name:0
+#: view:ohealth.patient:0
+#: field:ohealth.patient.evaluation,name:0
+#: view:ohealth.physician:0
+#: field:ohealth.physician,name:0
+#: view:ohealth.vaccination:0
+#: field:ohealth.vaccination,name:0
+msgid "Name"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_hospital_ward
+msgid "ohealth.hospital.ward"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,mood:0
+msgid "Rage"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_hospital_or
+msgid "ohealth.hospital.or"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.vaccination:0
+msgid "Ohealth Vaccination"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,malnutrition:0
+msgid "Check this box if the patient show signs of malnutrition. If associated  to a disease, please encode the correspondent disease on the patient disease history. For example, Moderate protein-energy malnutrition, E44.0 in ICD-10 encoding"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,refrigerator:0
+msgid "Refrigetator"
+msgstr ""
+
+#. module: ohealth
+#: help:product.product,is_vaccine:0
+msgid "Check if the product is a vaccine"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,disease_severity:0
+msgid "Severe"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,notes_complaint:0
+msgid "Complaint details"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.insurance,category:0
+msgid "Insurance company plan / category"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.pathology:0
+msgid "Ohealth Pathology"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.bed,state:0
+#: selection:ohealth.hospital.ward,state:0
+msgid "Not available"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,derived_from:0
+msgid "Physician who derived the case"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient.disease,disease_severity:0
+msgid "Severity"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.insurance:0
+#: field:ohealth.insurance,company:0
+#: view:ohealth.insurance.plan:0
+#: field:ohealth.insurance.plan,company:0
+#: field:res.partner,is_insurance_company:0
+msgid "Insurance Company"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.medication.template,duration_period:0
+#: selection:ohealth.medication.template,frequency_unit:0
+msgid "minutes"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.appointment:0
+#: field:ohealth.appointment,comments:0
+#: view:ohealth.diagnostic_hypothesis:0
+#: field:ohealth.diagnostic_hypothesis,comments:0
+#: view:ohealth.directions:0
+#: field:ohealth.directions,comments:0
+#: view:ohealth.secondary_condition:0
+#: field:ohealth.secondary_condition,comments:0
+#: view:ohealth.signs_and_symptoms:0
+#: field:ohealth.signs_and_symptoms,comments:0
+msgid "Comments"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.appointment:0
+#: view:ohealth.diagnostic_hypothesis:0
+#: view:ohealth.directions:0
+#: view:ohealth.disease_group.members:0
+#: view:ohealth.drug.form:0
+#: view:ohealth.drug.route:0
+#: view:ohealth.ethnicity:0
+#: view:ohealth.family:0
+#: view:ohealth.family_member:0
+#: view:ohealth.hospital.bed:0
+#: view:ohealth.hospital.building:0
+#: view:ohealth.hospital.or:0
+#: view:ohealth.hospital.unit:0
+#: view:ohealth.hospital.ward:0
+#: view:ohealth.insurance:0
+#: view:ohealth.insurance.plan:0
+#: view:ohealth.medicament:0
+#: view:ohealth.medicament.category:0
+#: view:ohealth.medication.dosage:0
+#: view:ohealth.medication.template:0
+#: view:ohealth.occupation:0
+#: view:ohealth.operational_area:0
+#: view:ohealth.operational_sector:0
+#: view:ohealth.pathology:0
+#: view:ohealth.pathology.category:0
+#: view:ohealth.pathology.group:0
+#: view:ohealth.patient:0
+#: view:ohealth.patient.disease:0
+#: view:ohealth.patient.evaluation:0
+#: view:ohealth.patient.medication:0
+#: view:ohealth.physician:0
+#: view:ohealth.prescription.line:0
+#: view:ohealth.prescription.order:0
+#: view:ohealth.procedure:0
+#: view:ohealth.secondary_condition:0
+#: view:ohealth.signs_and_symptoms:0
+#: view:ohealth.specialty:0
+#: view:ohealth.vaccination:0
+msgid "Group By..."
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.operational_sector,name:0
+msgid "Region included in an operational area"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.family_member:0
+#: field:ohealth.family_member,role:0
+msgid "Role"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_hospital_bed
+msgid " Hospital Bed"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_pathology_category_view
+msgid "Pathology Category"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,ac:0
+msgid "Air Conditioning"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_medication_template_view
+#: view:ohealth.patient.medication:0
+#: field:ohealth.patient.medication,template:0
+#: view:ohealth.prescription.line:0
+#: field:ohealth.prescription.line,template:0
+msgid "Medication Template"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_hospital_ward_view
+msgid "Hospital Ward"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_physician
+msgid " Physician"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,pregnancy:0
+msgid "Pregnancy and Lactancy"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.bed,state:0
+msgid "Free"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,tremor:0
+msgid "Tremor"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.order:0
+#: field:ohealth.prescription.order,pregnancy_warning:0
+msgid "Pregancy Warning"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medicament,therapeutic_action:0
+msgid "Therapeutic action"
+msgstr ""
+
+#. module: ohealth
+#: field:res.partner,is_doctor:0
+msgid "Health Prof"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_medication_dosage
+msgid " Medication Dosage"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.unit:0
+msgid "Ohealth Hospital Unit"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,allergy_type:0
+msgid "Drug Allergy"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_motor:0
+msgid "Obeys commands"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_pathology
+msgid " Pathology"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,route:0
+msgid "Drug administration route code."
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,ldl:0
+msgid "Last LDL Cholesterol reading. Can be approximative"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,info_diagnosis:0
+msgid "Presumptive Diagnosis: Extra Info"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,floor:0
+msgid "Floor Number"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.hospital.bed,name:0
+msgid "Bed Number"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient,current_address:0
+msgid "Contact information. You may choose from the different contacts and addresses this patient has."
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,cholesterol_total:0
+msgid "Last Cholesterol"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_hospital_unit
+msgid " Hospital Unit"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_motor:0
+msgid "Abnormal flexion to painful stimuli (decorticate response)"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.bed:0
+#: field:ohealth.hospital.bed,extra_info:0
+#: view:ohealth.hospital.building:0
+#: field:ohealth.hospital.building,extra_info:0
+#: view:ohealth.hospital.or:0
+#: field:ohealth.hospital.or,extra_info:0
+#: view:ohealth.hospital.unit:0
+#: field:ohealth.hospital.unit,extra_info:0
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,extra_info:0
+#: view:ohealth.insurance:0
+#: field:ohealth.insurance,notes:0
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,notes:0
+#: view:ohealth.pathology:0
+#: field:ohealth.pathology,info:0
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,extra_info:0
+#: view:ohealth.patient.medication:0
+#: field:ohealth.patient.medication,notes:0
+msgid "Extra Info"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient,sex:0
+msgid "Female"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_secondary_condition
+msgid "ohealth.secondary_condition"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_appointment
+msgid " Appointment"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,evaluation_summary:0
+msgid "Evaluation Summary"
+msgstr ""
+
+#. module: ohealth
+#: help:res.partner,activation_date:0
+msgid "Date of activation of the party"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,internet:0
+msgid "Internet Access"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,tag:0
+msgid "Last TAGs"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,ethnic_group:0
+msgid "Ethnic group"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,mood:0
+msgid "Euphoria"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,osat:0
+msgid "Oxygen Saturation(arterial)."
+msgstr ""
+
+#. module: ohealth
+#: field:res.partner,activation_date:0
+msgid "Activation date"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,violent:0
+msgid "Violent Behaviour"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_directions
+msgid " Directions"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.appointment:0
+#: field:ohealth.appointment,name:0
+#: field:ohealth.prescription.order,name:0
+msgid "Appointment ID"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient,blood_type:0
+msgid "Blood Type"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_verbal:0
+msgid "Makes no sounds"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.appointment,urgency:0
+msgid "Medical Emergency"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_hospital_or
+msgid " Hospital Or"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,is_on_treatment:0
+msgid "Currently on Treatment"
+msgstr ""
+
+#. module: ohealth
+#: field:res.partner,relationship:0
+msgid "Relationship"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.appointment:0
+#: field:ohealth.appointment,institution:0
+msgid "Health Center"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_insurance_plan
+msgid "ohealth.insurance.plan"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_motor:0
+msgid "Extension to painful stimuli - decerebrate response -"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.medication,discontinued_reason:0
+msgid "Short description for discontinuing the treatment"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.disease,short_comment:0
+msgid "Brief, one-line remark of the disease. Longer description will go on the Extra info field"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,orientation:0
+msgid "Check this box if the patient is disoriented in time and/or space"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.ward,state:0
+msgid "Full"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,temperature:0
+msgid "Temperature in celcius"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_medicament_category_view
+msgid "Medicament Category"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,osat:0
+msgid "Oxygen Saturation"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_insurance
+msgid " Insurance"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,secondary_conditions:0
+msgid "Other, Secondary conditions found on the patient"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,evaluation_type:0
+msgid "Telemedicine"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.appointment,speciality:0
+msgid "Medical Specialty / Sector"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,abstraction:0
+msgid "Check this box if the patient presents abnormalities in abstract reasoning"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,weeks_of_pregnancy:0
+msgid "Contracted in pregnancy week #"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,dehydration:0
+msgid "Dehydration"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+msgid "Ohealth Patient"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_prescription_line
+msgid " Prescription Line"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_pathology_group
+msgid " Pathology Group"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_dose_unit
+msgid " Dose Unit"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.bed,state:0
+msgid "Occupied"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,temperature:0
+msgid "Temperature"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_verbal:0
+msgid "Utters inappropriate words"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.disease,pcs_code:0
+msgid "Procedure code, for example, ICD-10-PCS Code 7-character string"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,disease_severity:0
+msgid "Moderate"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,qty:0
+msgid "Quantity of units (eg, 2 capsules) of the medicament"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,head_circumference:0
+msgid "Head Circumference"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_appointment_view
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,evaluation_date:0
+msgid "Appointment"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.bed,bed_type:0
+msgid "Electric"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_operational_area
+msgid " Operational Area"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,evaluation_type:0
+msgid "Pre-arranged appointment"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,telephone:0
+msgid "Telephone access"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.operational_area:0
+msgid "Ohealth Operational_Area"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,bpm:0
+msgid "Heart rate expressed in beats per minute"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_disease_group_members_view
+msgid "Disease Group Members"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.insurance:0
+#: field:ohealth.insurance,plan_id:0
+#: view:ohealth.insurance.plan:0
+#: field:ohealth.insurance.plan,plan:0
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,directions:0
+msgid "Plan"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.insurance.plan:0
+msgid "Ohealth Insurance Plan"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_eyes:0
+msgid "Opens eyes in response to voice"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.medication:0
+#: field:ohealth.patient.medication,is_active:0
+msgid "Active"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.prescription.line,prnt:0
+msgid "Check this box to print this line of the prescription."
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient,identification_code:0
+msgid "Patient Identifier provided by the Health Center.Is not the Social Security Number"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,route:0
+msgid "Administration Route"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,pregnancy_warning:0
+msgid "Pregnancy Warning"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.family:0
+#: field:ohealth.family,info:0
+#: view:ohealth.operational_area:0
+#: field:ohealth.operational_area,info:0
+#: view:ohealth.operational_sector:0
+#: field:ohealth.operational_sector,info:0
+msgid "Extra Information"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_operational_sector
+msgid "ohealth.operational_sector"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,form:0
+msgid "Drug form, such as tablet or gel"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medicament,indications:0
+msgid "Indications"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.line:0
+#: field:ohealth.prescription.line,prescription_order_id:0
+#: view:ohealth.prescription.order:0
+#: field:ohealth.prescription.order,prescription_id:0
+msgid "Prescription ID"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.insurance:0
+#: field:ohealth.insurance,number:0
+msgid "Number"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.drug.route:0
+msgid "Ohealth Drug Route"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,derived_to:0
+msgid "Physician to whom escalate / derive the case"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,actions:0
+msgid "Procedures / Actions to take"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_pathology_group
+msgid "ohealth.pathology.group"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.medicament,pregnancy_category:0
+msgid "Pregnancy Category"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient.disease,allergy_type:0
+msgid "Allergy type"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.order:0
+#: field:ohealth.prescription.order,prescription_warning_ack:0
+msgid "Prescription verified"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.medication.template,frequency_unit:0
+msgid "unit"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,knowledge_current_events:0
+msgid "Check this box if the patient can not respond to public notorious events"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,glycemia:0
+msgid "Last blood glucose level. Can be approximative."
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.appointment,institution:0
+#: help:ohealth.hospital.building,institution:0
+#: help:ohealth.hospital.or,institution:0
+#: help:ohealth.hospital.unit,institution:0
+#: help:ohealth.hospital.ward,institution:0
+msgid "Medical Center"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,abstraction:0
+msgid "Abstraction"
+msgstr ""
+
+#. module: ohealth
+#: help:res.partner,is_person:0
+msgid "Check if the party is a person."
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,diagnosis:0
+msgid "Presumptive Diagnosis"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,lastname:0
+msgid "Lastname"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,hdl:0
+msgid "Last HDL"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,admin_times:0
+msgid "Suggested administration hours. For example, at 08:00, 13:00 and 18:00 can be encoded like 08 13 18"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,current_address:0
+msgid "Address"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,short_comment:0
+msgid "Remarks"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.insurance,insurance_type:0
+#: selection:res.partner,insurance_company_type:0
+msgid "Labour Union / Syndical"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,dose_unit:0
+msgid "Unit of measure for the medication to be taken"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,abdominal_circ:0
+msgid "Waist"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,overdosage:0
+#: help:ohealth.medicament,overdosage:0
+msgid "Overdosage"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_drug_form_view
+msgid "Drug Form"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_hospital_unit_view
+msgid "Hospital Unit"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,indications:0
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,indication:0
+msgid "Indication"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.diagnostic_hypothesis:0
+msgid "Ohealth Diagnostic_Hypothesis"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,mood:0
+msgid "Sad"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.insurance:0
+#: field:ohealth.insurance,member_since:0
+msgid "Member since"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,identification_code:0
+#: view:ohealth.physician:0
+#: field:ohealth.physician,code:0
+msgid "ID"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,deceased:0
+msgid "Deceased"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient,diseases:0
+msgid "Diseases"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,derived_to:0
+msgid "Derived to"
+msgstr ""
+
+#. module: ohealth
+#: sql_constraint:ohealth.drug.form:0
+#: sql_constraint:ohealth.drug.route:0
+#: sql_constraint:ohealth.ethnicity:0
+#: sql_constraint:ohealth.hospital.or:0
+#: sql_constraint:ohealth.medication.dosage:0
+#: sql_constraint:ohealth.occupation:0
+#: sql_constraint:ohealth.operational_area:0
+#: sql_constraint:ohealth.operational_sector:0
+#: sql_constraint:ohealth.pathology:0
+#: sql_constraint:ohealth.specialty:0
+msgid "Name must be unique!"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient,marital_status:0
+msgid "Widowed"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.building:0
+msgid "Ohealth Hospital Building"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_eyes:0
+msgid "Does not Open Eyes"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient,family:0
+msgid "Family Code"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.secondary_condition:0
+msgid "Ohealth Secondary_Condition"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medicament,pregnancy_warning:0
+msgid "The drug represents risk to pregnancy or lactancy"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_hospital_bed
+msgid "ohealth.hospital.bed"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.appointment:0
+msgid "Ohealth Appointment"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.physician,institution:0
+msgid "Instituion where she/he works"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_hospital_bed_view
+msgid "Hospital Bed"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_disease_group_members
+msgid "ohealth.disease_group.members"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,evaluation_date:0
+msgid "Enter or select the date / ID of the appointment related to this evaluation"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,information_source:0
+msgid "Source ofInformation, eg : Self, relative, friend ..."
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_vaccination_view
+msgid "Vaccination"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_patient_medication_view
+msgid "Patient Medication"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.pathology.group:0
+#: field:ohealth.pathology.group,info:0
+msgid "Detailed information"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.signs_and_symptoms:0
+msgid "Ohealth Signs_And_Symptoms"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,mood:0
+msgid "Happy"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.procedure:0
+#: field:ohealth.procedure,description:0
+msgid "Long Text"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,allergy_type:0
+msgid "Food Allergy"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,duration_period:0
+msgid "Period that the patient must take the medication in minutes, hours, days, months, years or indefinately"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,reliable_info:0
+msgid "Uncheck this optionif the information provided by the source seems not reliable"
+msgstr ""
+
+#. module: ohealth
+#: help:product.product,is_bed:0
+msgid "Check if the product is a bed on the gnuhealth.center"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,chief_complaint:0
+#: help:ohealth.patient.evaluation,chief_complaint:0
+msgid "Chief Complaint"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.building:0
+#: field:ohealth.hospital.building,institution:0
+#: view:ohealth.hospital.or:0
+#: field:ohealth.hospital.or,institution:0
+#: view:ohealth.hospital.unit:0
+#: field:ohealth.hospital.unit,institution:0
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,institution:0
+#: view:ohealth.physician:0
+#: field:ohealth.physician,institution:0
+#: view:ohealth.vaccination:0
+#: field:ohealth.vaccination,institution:0
+#: field:res.partner,is_institution:0
+msgid "Institution"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.or:0
+#: field:ohealth.hospital.or,building:0
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,building:0
+msgid "Building"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.medication.template,frequency_unit:0
+msgid "when required"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.bed:0
+#: field:ohealth.hospital.bed,telephone_number:0
+msgid "Telephone Number"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_eyes:0
+msgid "Opens eyes spontaneously"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient,marital_status:0
+msgid "Married"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.disease:0
+msgid "Ohealth Patient Disease"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medicament,composition:0
+msgid "Components"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,status:0
+msgid "acute"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_secondary_condition_view
+msgid "Secondary Condition"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,whr:0
+msgid "WHR"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.family_member:0
+msgid "Ohealth Family_Member"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.hospital.bed,ward:0
+msgid "Ward or room"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_patient_disease
+msgid " Patient Disease"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.appointment,appointment_type:0
+#: selection:ohealth.patient.evaluation,evaluation_type:0
+msgid "Inpatient"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.disease,date_start_treatment:0
+msgid "Start of treatment date"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_signs_and_symptoms_view
+msgid "Signs And Symptoms"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,dose:0
+msgid "Amount of medication (eg, 250 mg) per dose"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,mood:0
+msgid "Fear"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,dod:0
+msgid "Date of Death"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_secondary_condition
+msgid " Secondary Condition"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.bed,bed_type:0
+msgid "Gatch Bed"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_patient
+msgid " Patient"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.insurance,plan_id:0
+#: help:ohealth.insurance.plan,name:0
+msgid "Insurance company plan"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.pathology,code:0
+msgid "Specific Code for the Disease (eg, ICD-10)"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.order:0
+#: field:ohealth.prescription.order,pharmacy:0
+#: field:res.partner,is_pharmacy:0
+msgid "Pharmacy"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.medication,is_active:0
+msgid "Check if the patient is currently taking the medication"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_hospital_building_view
+msgid "Hospital Building"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.pathology:0
+#: field:ohealth.pathology,category:0
+msgid "Main Category"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.appointment,doctor:0
+msgid "Physician's Name"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_drug_route
+msgid " Drug Route"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.medication.template,duration_period:0
+msgid "indefinite"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.line:0
+#: field:ohealth.prescription.line,allow_substitution:0
+msgid "Allow substitution"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.bed:0
+msgid "Ohealth Hospital Bed"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,glycemia:0
+msgid "Glycemia"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,number_of_beds:0
+msgid "Number of beds"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,object_recognition:0
+msgid "Check this box if the patient suffers from any sort of gnosia disorders, such as agnosia, prosopagnosia ..."
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.appointment,appointment_type:0
+#: selection:ohealth.patient.evaluation,evaluation_type:0
+msgid "Ambulatory"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.insurance:0
+#: field:ohealth.insurance,member_exp:0
+msgid "Expiration date"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.hospital.ward,gender:0
+msgid "Gender"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.family,name:0
+msgid "Family code within an operational sector"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,judgment:0
+msgid "Jugdment"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,bmi:0
+msgid "Body Mass Index"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.signs_and_symptoms:0
+#: field:ohealth.signs_and_symptoms,clinical_id:0
+msgid "Sign or Symptom"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_vaccination
+msgid "ohealth.vaccination"
+msgstr ""
+
+#. module: ohealth
+#: field:res.partner,is_school:0
+msgid "School"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,medicament:0
+msgid "Prescribed Medicament"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.physician:0
+#: field:ohealth.physician,health_professional:0
+msgid "Health Professional"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient,marital_status:0
+msgid "Divorced"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.medication.template,frequency_unit:0
+msgid "seconds"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,calculation_ability:0
+msgid "Calculation Ability"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,next_evaluation:0
+msgid "Next Appointment"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.medication,adverse_reaction:0
+msgid "Side effects or adverse reactions that the patient experienced"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,guest_sofa:0
+msgid "Guest sofa-bed"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.operational_area,name:0
+msgid "Operational Area of the city or region"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_pathology_view
+#: view:ohealth.diagnostic_hypothesis:0
+#: field:ohealth.diagnostic_hypothesis,pathology_id:0
+#: view:ohealth.secondary_condition:0
+#: field:ohealth.secondary_condition,pathology_id:0
+msgid "Pathology"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.line:0
+#: field:ohealth.prescription.line,short_comment:0
+msgid "Comment"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.bed,bed_type:0
+msgid "Stretcher"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,vocabulary:0
+msgid "Vocabulary"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,weight:0
+msgid "Weight"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.medication.template,duration_period:0
+msgid "months"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.occupation:0
+msgid "Ohealth Occupation"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,hip:0
+msgid "Hip circumference in centimeters, eg 100"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.appointment,urgency:0
+msgid "Urgency Level"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_insurance_plan_view
+msgid "Insurance Plan"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_operational_area_view
+#: view:ohealth.operational_sector:0
+#: field:ohealth.operational_sector,operational_area_id:0
+msgid "Operational Area"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.disease,status:0
+msgid "chronic"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.pathology.category:0
+#: field:ohealth.pathology.category,name:0
+msgid "Category Name"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.order:0
+msgid "Ohealth Prescription Order"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.medication:0
+#: field:ohealth.patient.medication,discontinued_reason:0
+msgid "Reason for discontinuation"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,tag:0
+msgid "Triacylglycerol(triglicerides) level. Can be approximative"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.disease,date_stop_treatment:0
+msgid "End of treatment date"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.appointment,urgency:0
+#: selection:ohealth.patient.evaluation,mood:0
+msgid "Normal"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_medication_dosage_view
+msgid "Medication Dosage"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_hospital_building
+msgid " Hospital Building"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.hospital.ward,name:0
+msgid "Ward / Room code"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,admin_times:0
+msgid "Admin hours"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_directions_view
+msgid "Directions"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_procedure
+msgid " Procedure"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_diagnostic_hypothesis
+msgid " Diagnostic Hypothesis"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.procedure:0
+msgid "Ohealth Procedure"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.pathology,groups:0
+msgid "Groups"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.ward,state:0
+msgid "Beds available"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.ui.menu,name:ohealth.ohealth_patient_medication
+msgid " Patient Medication"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_pathology_group_view
+msgid "Pathology Group"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_patient_medication
+msgid "ohealth.patient.medication"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_patient_evaluation
+msgid "ohealth.patient.evaluation"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,critical_info:0
+msgid "Important disease, allergy or procedures information"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.disease,age:0
+msgid "Patient age at the moment of the diagnosis. Can be estimative"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,private_bathroom:0
+msgid "Private Bathroom"
+msgstr ""
+
+#. module: ohealth
+#: help:res.partner,alias:0
+msgid "Common name that the Party is reffered"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.order:0
+#: field:ohealth.prescription.order,prescription_date:0
+msgid "Prescription Date"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient,partner_id:0
+msgid "Related Partner"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,is_allergy:0
+msgid "Allergic Disease"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient,partner_id:0
+msgid "Partner-related data of the patient"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.vaccination:0
+#: field:ohealth.vaccination,vaccine_lot:0
+msgid "Lot Number"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient:0
+#: field:ohealth.patient,general_info:0
+msgid "General Information"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.signs_and_symptoms,sign_or_symptom:0
+msgid "Symptom"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.pathology:0
+#: field:ohealth.pathology,chromosome:0
+msgid "Affected Chromosome"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medicament,pregnancy:0
+msgid "Warnings for Pregnant Women"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_insurance_view
+#: view:ohealth.patient:0
+#: field:ohealth.patient,current_insurance:0
+msgid "Insurance"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,memory:0
+msgid "Check this box if the patient has problems in short or long term memory"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_physician
+msgid "ohealth.physician"
+msgstr ""
+
+#. module: ohealth
+#: constraint:ohealth.medicament.category:0
+#: constraint:ohealth.pathology.category:0
+msgid "Error ! You cannot create recursive \n"
+"Category."
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_appointment
+msgid "ohealth.appointment"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.vaccination:0
+#: field:ohealth.vaccination,observations:0
+msgid "Observations"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.pathology,chromosome:0
+msgid "chromosome number"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,memory:0
+msgid "Memory"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.pathology.group:0
+#: field:ohealth.pathology.group,desc:0
+msgid "Short Description"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.medicament:0
+#: field:ohealth.medicament,presentation:0
+msgid "Presentation"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_family_member
+msgid "ohealth.family_member"
+msgstr ""
+
+
+#. module: ohealth
+#: selection:ohealth.patient,marital_status:0
+msgid "Single"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_verbal:0
+msgid "Oriented, converses normally"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_prescription_order
+msgid "ohealth.prescription.order"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.actions.act_window,name:ohealth.act_open_ohealth_medicament_view
+#: view:ohealth.medication.template:0
+#: field:ohealth.medication.template,medicament:0
+#: field:product.product,is_medicament:0
+msgid "Medicament"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient.evaluation,actions:0
+msgid "Procedures"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.hospital.ward,gender:0
+msgid "Women Ward"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.disease,doctor:0
+msgid "Physician who treated or diagnosed the patient"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient,blood_type:0
+msgid "AB"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.pathology.group:0
+msgid "Ohealth Pathology Group"
+msgstr ""
+
+#. module: ohealth
+#: field:ohealth.patient,photo:0
+msgid "Picture"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,knowledge_current_events:0
+msgid "Knowledge of Current Events"
+msgstr ""
+
+#. module: ohealth
+#: selection:ohealth.patient.evaluation,loc_motor:0
+msgid "Localizes painful stimuli"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_drug_form
+msgid "ohealth.drug.form"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.physician,specialty:0
+msgid "Specialty Code"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,malnutrition:0
+msgid "Malnutrition"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.evaluation:0
+#: field:ohealth.patient.evaluation,systolic:0
+msgid "Systolic Pressure"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.pathology.group,code:0
+msgid "for example MDG6 code will contain the Millennium Development Goals # 6 diseases : Tuberculosis, Malaria and HIV/AIDS"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.hospital.unit,name:0
+msgid "Name of the unit, eg Neonatal, Intensive Care, ..."
+msgstr ""
+
+#. module: ohealth
+#: field:res.partner,is_person:0
+msgid "Person"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.medication.template,frequency:0
+msgid "Time in between doses the patient must wait (ie, for 1 pill each 8 hours, put here 8 and select \"hours\" in the unit field"
+msgstr ""
+
+#. module: ohealth
+#: help:ohealth.patient.evaluation,judgment:0
+msgid "Check this box if the patient can not interpret basic scenario solutions"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+#: field:ohealth.hospital.ward,private:0
+#: selection:ohealth.insurance,insurance_type:0
+#: selection:res.partner,insurance_company_type:0
+msgid "Private"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.patient.disease:0
+#: field:ohealth.patient.disease,healed_date:0
+msgid "Healed"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.hospital.ward:0
+msgid "Ohealth Hospital Ward"
+msgstr ""
+
+#. module: ohealth
+#: view:ohealth.prescription.line:0
+msgid "Ohealth Prescription Line"
+msgstr ""
+
+#. module: ohealth
+#: model:ir.model,name:ohealth.model_ohealth_occupation
+msgid "ohealth.occupation"
+msgstr ""
+

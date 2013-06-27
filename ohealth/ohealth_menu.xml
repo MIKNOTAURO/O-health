@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<menuitem id="ohealth_root" name="OHealth" sequence="10" />
+
+
+<!--Menu Patient-->
+
+		<menuitem id="ohealth_patient_root" name="Patient" parent="ohealth_root"
+			sequence="10" />
+		<menuitem id="ohealth_patient" name=" Patient"
+			parent="ohealth_patient_root" sequence="10"
+			action="act_open_ohealth_patient_view" />
+
+		<menuitem id="ohealth_family" name=" Family" parent="ohealth_patient_root"
+			sequence="20" action="act_open_ohealth_family_view" />
+
+		<menuitem id="ohealth_family_member" name=" Family Member"
+			parent="ohealth_patient_root" sequence="30"
+			action="act_open_ohealth_family_member_view" />
+
+
+<!--Appointment-->
+
+		<menuitem id="ohealth_appoitment_root" name="Appoitment"
+			parent="ohealth_root" sequence="20" />
+
+		<menuitem id="ohealth_appointment" name=" Appointment"
+			parent="ohealth_appoitment_root" sequence="10"
+			action="act_open_ohealth_appointment_view" />
+
+<!--Prescriptions-->
+
+		<menuitem id="ohealth_prescription_root" name="Prescription"
+			parent="ohealth_root" sequence="30" />
+
+		<menuitem id="ohealth_prescription_order" name="Prescription Order"
+			parent="ohealth_prescription_root" sequence="10"
+			action="act_open_ohealth_prescription_order_view" />
+
+
+<!--Configurations-->
+
+		<menuitem id="ohealth_root_sub" name="Configuration"
+			parent="ohealth_root" sequence="100" />
+
+<!-- Diseases -->
+
+		<menuitem id="ohealth_root_disease" name="Disease"
+			parent="ohealth_root_sub" sequence="10" />
+
+<!--  Menu of Pathology-->
+
+		<menuitem id="ohealth_pathology_category" name=" Pathology Category"	
+            parent="ohealth_root_disease" sequence="10"	
+            action="act_open_ohealth_pathology_category_view" />
+
+		<menuitem id="ohealth_pathology" name=" Pathology" 
+            parent="ohealth_root_disease"   sequence="30" 
+            action="act_open_ohealth_pathology_view" />
+
+		<menuitem id="ohealth_pathology_group" name=" Pathology Group" 
+            parent="ohealth_root_disease" sequence="20"
+            action="act_open_ohealth_pathology_group_view" />
+
+		<menuitem id="ohealth_root_disease_cat" name="Categories"
+			parent="ohealth_root_disease" sequence="100" />
+
+		<menuitem id="ohealth_disease_group_members" name=" Disease Group"
+			parent="ohealth_root_disease_cat" sequence="10"
+			action="act_open_ohealth_disease_group_members_view" />
+
+<!-- Misc -->
+
+		<menuitem id="ohealth_root_misc" name="Misc"
+			parent="ohealth_root_sub" sequence="200" />
+
+<!-- Occupation  ( Config/misc/Occupation) )--> 
+
+		<menuitem id="ohealth_occupation" name=" Occupation"
+			parent="ohealth_root_misc" sequence="20"
+			action="act_open_ohealth_occupation_view" />
+
+<!-- Medical Specialty  ( Config/misc/specialty) )--> 
+
+		<menuitem id="ohealth_specialty" name=" Medical Specialty"
+            parent="ohealth_root_misc" sequence="10" 
+            action="act_open_ohealth_specialty_view" />
+
+<!-- Ethnicity  ( Config/misc/Ethnicity) )--> 
+
+		<menuitem id="ohealth_ethnicity" name="Ethnicity" parent="ohealth_root_misc"
+			sequence="10" action="act_open_ohealth_ethnicity_view" />
+
+
+
+
+
+
+<!--Medicaments-->
+
+		<menuitem id="ohealth_medicament_root" name="Medicaments"
+			parent="ohealth_root_sub" sequence="50" />
+
+
+		<menuitem id="ohealth_medicament" name="Medicaments"
+			parent="ohealth_medicament_root" sequence="10"
+			action="act_open_ohealth_medicament_view" />
+
+		<menuitem id="ohealth_medication_template" name=" Medication Template"
+			parent="ohealth_medicament_root" sequence="20"
+			action="act_open_ohealth_medication_template_view" />
+
+		<menuitem id="ohealth_medication_frequencies" name="Medication Frequencies"
+			parent="ohealth_medicament_root" sequence="30"
+			action="act_open_ohealth_medication_dosage_view" />
+
+		<menuitem id="ohealth_drug_route" name=" Drug Admin Route"
+			parent="ohealth_medicament_root" sequence="80"
+			action="act_open_ohealth_drug_route_view" />
+
+		<menuitem id="ohealth_drug_form" name=" Drug Form"
+            parent="ohealth_medicament_root" sequence="90"
+            action="act_open_ohealth_drug_form_view" />
+
+
+		<menuitem id="ohealth_medicament_category" name=" Medicament Category"
+			parent="ohealth_medicament_root" sequence="100"
+			action="act_open_ohealth_medicament_category_view" />
+
+<!--Hospital Centers-->
+
+		<menuitem id="ohealth_health_center_root" name="Health Center"
+			parent="ohealth_root_sub" sequence="10" />
+
+		<menuitem id="ohealth_hospital_building" name=" Hospital Building"
+			parent="ohealth_health_center_root" sequence="10"
+			action="act_open_ohealth_hospital_building_view" />
+
+		<menuitem id="ohealth_hospital_unit" name=" Hospital Unit"
+			parent="ohealth_health_center_root" sequence="20"
+			action="act_open_ohealth_hospital_unit_view" />
+
+		<menuitem id="ohealth_hospital_ward" name=" Hospital Ward"
+			parent="ohealth_health_center_root" sequence="30"
+			action="act_open_ohealth_hospital_ward_view" />
+
+		<menuitem id="ohealth_hospital_or" name=" Hospital Or"
+			parent="ohealth_health_center_root" sequence="40"
+			action="act_open_ohealth_hospital_or_view" />
+		
+		<menuitem id="ohealth_hospital_bed" name=" Hospital Bed"
+			parent="ohealth_health_center_root" sequence="50"
+			action="act_open_ohealth_hospital_bed_view" />
+
+		<menuitem id="ohealth_operational_area" name=" Operational Area"
+			parent="ohealth_health_center_root" sequence="60"
+			action="act_open_ohealth_operational_area_view" />
+
+		<menuitem id="ohealth_operational_sector" name=" Operational Sector"
+			parent="ohealth_health_center_root" sequence="70"
+			action="act_open_ohealth_operational_sector_view" />
+<<<<<<< HEAD
+			
+		<menuitem id="ohealth_hospital_profile" name=" Hospital Profile"
+			parent="ohealth_health_center_root" sequence="80"
+			action="act_open_ohealth_hospital_profile_view" />
+=======
+>>>>>>> f117e110348d39eb7892f76caba53ec5b44b71fe
+
+
+<!--    Physician Conf    -->
+
+        <menuitem name="Health Professionals" id="ohealth_conf_physicians"
+            parent="ohealth_root_sub" sequence="20" />
+
+		<menuitem id="ohealth_physician" name=" Physician" parent="ohealth_conf_physicians"
+			sequence="10" action="act_open_ohealth_physician_view" />
+
+
+<!--    Insurance     -->
+
+        <menuitem name="Insurances" id="ohealth_conf_insurances"
+            parent="ohealth_root_misc" sequence="20" />
+
+		<menuitem id="ohealth_insurance" name=" Insurance" 
+            parent="ohealth_conf_insurances"	sequence="10" 
+            action="act_open_ohealth_insurance_view" />
+
+		<menuitem id="ohealth_insurance_plan" name=" Insurance Plan"
+			parent="ohealth_conf_insurances" sequence="20"
+			action="act_open_ohealth_insurance_plan_view" />
+
+
+
+
+		<menuitem id="ohealth_diagnostic_hypothesis" name=" Diagnostic Hypothesis"
+			parent="ohealth_root_sub" sequence="10"
+			action="act_open_ohealth_diagnostic_hypothesis_view" />
+		<menuitem id="ohealth_predure" name=" Procedure" parent="ohealth_root_sub"
+			sequence="10" action="act_open_ohealth_procedure_view" />
+
+		<menuitem id="ohealth_vaccination" name=" Vaccination"
+			parent="ohealth_root_sub" sequence="10"
+			action="act_open_ohealth_vaccination_view" />
+
+
+	</data>
+</openerp>

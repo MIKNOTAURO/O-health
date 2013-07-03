@@ -40,6 +40,7 @@
 		<label for="hospital_code"/> 
 		<field name="hospital_code" style="width: 20%%"/>
 		<group string="General Information">
+		<group>
         <field name="register_date" />
         <field name="hospital_type" />
         <field name="hospital_class" />
@@ -59,10 +60,11 @@
         <field name="pr_phone" />
         <field name="website" />
         </group>
+        </group>
         <notebook>
         <page string="Conditions and Legality">
-        <field name="land_area" />
-        <field name="building_area" />
+        <group>
+        <group>
         <field name="no_legal" />
         <field name="date_legal" />
         <field name="legal_by" />
@@ -74,8 +76,15 @@
         <field name="phasing" />
         <field name="accred_status" />
         <field name="accred_date" />
+        </group>
+        <group>
+        <field name="land_area" />
+        <field name="building_area" />
+        </group>
+        </group>
         </page>
         <page string="Number of Bed">
+        <group>
         <field name="bed_number" />
         <field name="perinatologi_bed" />
         <field name="vvip_bed" />
@@ -92,8 +101,10 @@
         <field name="emergency_room" />
         <field name="parenatal_room" />
         <field name="operation_room" />
+        </group>
         </page>
         <page string="Number of Personel">
+        <group>
         <field name="spa" />
         <field name="spog" />
         <field name="sppd" />
@@ -118,6 +129,7 @@
         <field name="pharmacy" />
         <field name="other_health_practician" />
         <field name="non_medic" />
+        </group>
         </page>
         <page string="Extra Info">
         <field name="extra_info" />

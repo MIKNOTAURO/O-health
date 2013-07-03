@@ -46,10 +46,7 @@ import ohealth_drug_form
 import ohealth_patient_medication
 import ohealth_patient_evaluation
 import ohealth_hospital_building
-<<<<<<< HEAD
 import ohealth_hospital_profile
-=======
->>>>>>> f117e110348d39eb7892f76caba53ec5b44b71fe
 import ohealth_patient
 import ohealth_prescription_line
 import ohealth_patient_disease

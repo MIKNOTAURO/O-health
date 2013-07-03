@@ -8,13 +8,8 @@
  			<field name="arch" type="xml"> 
  				<tree string="Ohealth Patient"> 
  					<field name="first_name" /> 
-<<<<<<< HEAD
  					<!--  field name="lastname" /> 
  					<field name="slastname" / -->
-=======
- 					<field name="lastname" /> 
- 					<field name="slastname" />
->>>>>>> f117e110348d39eb7892f76caba53ec5b44b71fe
  					<field name="age" />
  					<field name="ssn" /> 
  					<field name="identification_code" /> 
@@ -35,13 +30,8 @@
                             <div> 
                                  <h1> 
 		                            <field name="first_name" placeholder="First Name" style="width: 20%%" on_change="onchange_name(first_name, lastname, slastname, context)"  /> 
-<<<<<<< HEAD
 		                            <!--  field name="lastname" placeholder="Last Name" style="width: 20%%" on_change="onchange_name(first_name, lastname, slastname, context)" /> 
 		                            <field name="slastname" placeholder="S Last Name" style="width: 20%%" on_change="onchange_name(first_name, lastname, slastname, context)" / --> 
-=======
-		                            <field name="lastname" placeholder="Last Name" style="width: 20%%" on_change="onchange_name(first_name, lastname, slastname, context)" /> 
-		                            <field name="slastname" placeholder="S Last Name" style="width: 20%%" on_change="onchange_name(first_name, lastname, slastname, context)" /> 
->>>>>>> f117e110348d39eb7892f76caba53ec5b44b71fe
 	                            </h1> 
                             </div> 
      						<div> 
@@ -225,7 +215,7 @@
  					<field name="primary_care_doctor" /> 
  					<field name="childbearing_age" /> 
  					<field name="critical_info" /> 
- 					<field name="lastname" /> 
+ 					<!--   field name="lastname" / --> 
  					<field name="ethnic_group" /> 
  					<field name="ssn" /> 
  					<field name="dob" /> 
@@ -247,7 +237,7 @@
  							context="{'group_by':'childbearing_age'}" /> 
  						<filter string="Important disease, allergy or procedures information" 
  							domain="[]" context="{'group_by':'critical_info'}" /> 
- 						<filter string="Lastname" domain="[]" context="{'group_by':'lastname'}" /> 
+ 						<!--  filter string="Lastname" domain="[]" context="{'group_by':'lastname'}" / --> 
  						<filter string="Ethnic group" domain="[]" 
  							context="{'group_by':'ethnic_group'}" /> 
  						<filter string="SSN" domain="[]" context="{'group_by':'ssn'}" /> 

@@ -160,13 +160,10 @@
 		<menuitem id="ohealth_operational_sector" name=" Operational Sector"
 			parent="ohealth_health_center_root" sequence="70"
 			action="act_open_ohealth_operational_sector_view" />
-<<<<<<< HEAD
 			
 		<menuitem id="ohealth_hospital_profile" name=" Hospital Profile"
 			parent="ohealth_health_center_root" sequence="80"
 			action="act_open_ohealth_hospital_profile_view" />
-=======
->>>>>>> f117e110348d39eb7892f76caba53ec5b44b71fe
 
 
 <!--    Physician Conf    -->

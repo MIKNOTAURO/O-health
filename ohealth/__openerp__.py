@@ -132,10 +132,7 @@ OHealth at a glance:
         'ohealth_lifestyle/data/recreational_drugs.xml',
         'ohealth_genetics/ohealth_disease_gene_view.xml',
         'ohealth_genetics/data/disease_genes.xml',
-<<<<<<< HEAD
         'ohealth_hospital_profile/ohealth_hospital_profile_view.xml',
-=======
->>>>>>> f117e110348d39eb7892f76caba53ec5b44b71fe
         'security/ir.model.access.csv',
         'ohealth_menu.xml',
     ],

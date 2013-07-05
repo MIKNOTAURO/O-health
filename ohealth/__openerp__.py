@@ -81,7 +81,7 @@ OHealth at a glance:
     * Open Source : Licensed under AGPL
     
 """,
-    "website": "http://launchpad.net/ohealth",
+    "website": "https://github.com/defcon19/O-health/releases",
     "licence": "AGPL v3",
     "data": [
         'sequence/ohealth_sequence.xml',

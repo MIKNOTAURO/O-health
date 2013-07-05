@@ -5,13 +5,12 @@
 			<field name="name">ohealth.medicament.tree</field>
 			<field name="model">ohealth.medicament</field>
 			<field name="priority" eval="8" />
-			<field name="arch" type="xml">
-				<tree string="Ohealth Medicament">
+			<field name="arch" type="xml">  
+				<tree string="Ohealth Medicament"> 
 					<field name="product_id" />
 					<field name="category" />
 					<field name="indications" />
 					<field name="therapeutic_action" />
-					<!--field name="pregnancy_category"/ -->
 					<field name="overdosage" />
 					<field name="pregnancy_warning" />
 					<field name="notes" />
@@ -56,16 +55,18 @@
                             </page>
                             <page string="Dosage">
                                 <separator string="Dosage" colspan="2"/>
-                                <separator string="Overdosage" colspan="2"/>
 					            <field name="dosage" nolabel="1" colspan="2"/>
+                                <separator string="Overdosage" colspan="2"/>
 					            <field name="overdosage" nolabel="1" colspan="2"/>
                             </page>
                             <page string="Pregnancy">
-					            <field name="pregnancy_warning" />
-					            <field name="pregnancy_category" />
-                                <separator string="Notes" colspan="4"/>
-                                <newline/>
-                                <field colspan="4" name="pregnancy" nolabel="1"/>
+                                <group colspan="4">
+					                <field name="pregnancy_warning" />
+					                <field name="pregnancy_category" />
+                                    <separator string="Notes" colspan="4"/>
+                                    <newline/>
+                                    <field colspan="4" name="pregnancy" nolabel="1"/>
+                                </group>
                             </page>
                             <page string="Adverse Reactions">
 					            <field name="adverse_reaction" nolabel="1" colspan="4"/>

@@ -2,6 +2,7 @@
 #/#############################################################################
 #
 #    HITSF
+#    Riza Kurniawan (rizabisnis@gmail.com)
 #    
 #    Special Credit and Thanks to Thymbra Latinoamericana S.A.
 #

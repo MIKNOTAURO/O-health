@@ -85,6 +85,7 @@
         </page>
         <page string="Number of Bed">
         <group>
+        <group>
         <field name="bed_number" />
         <field name="perinatologi_bed" />
         <field name="vvip_bed" />
@@ -97,13 +98,17 @@
         <field name="class_nicu" />
         <field name="class_hcu" />
         <field name="class_iccu" />
+        </group>
+        <group>
         <field name="isolation_room" />
         <field name="emergency_room" />
         <field name="parenatal_room" />
         <field name="operation_room" />
         </group>
+        </group>
         </page>
         <page string="Number of Personel">
+        <group>
         <group>
         <field name="spa" />
         <field name="spog" />
@@ -120,6 +125,8 @@
         <field name="sppk" />
         <field name="sppd2" />
         <field name="sps" />
+        </group>
+        <group>
         <field name="sub_spes" />
         <field name="other_spes" />
         <field name="general_doctor" />
@@ -129,6 +136,7 @@
         <field name="pharmacy" />
         <field name="other_health_practician" />
         <field name="non_medic" />
+        </group>
         </group>
         </page>
         <page string="Extra Info">

@@ -2,7 +2,7 @@
 #/#############################################################################
 #
 #    HITSF
-#    
+#    Riza Kurniawan (rizabisnis@gmail.com)
 #    Special Credit and Thanks to Thymbra Latinoamericana S.A.
 #
 #    This program is free software: you can redistribute it and/or modify

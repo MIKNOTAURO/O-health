@@ -31,6 +31,7 @@ class OHealthPatient(osv.Model):
         'res.partner': 'partner_id',
     }
 
+
     def onchange_name(self, cr, uid, ids, first_name, lastname, slastname, context=None):
         if first_name == False:
             first_name = ''
@@ -79,7 +80,7 @@ class OHealthPatient(osv.Model):
             'res.partner', 'Related Partner', required=True,
             ondelete='cascade', help='Partner-related data of the patient'),
         'first_name': fields.char(size=256, string='Name', required=True),
-        'lastname': fields.char(size=256, string='Lastname', required=True),    
+        'lastname': fields.char(size=256, string='Lastname', required=False),    
         'slastname': fields.char(size=256, string='Second Lastname',),
         'family': fields.many2one('ohealth.family', string='Family', help='Family Code'),
         'photo': fields.binary(string='Picture'),

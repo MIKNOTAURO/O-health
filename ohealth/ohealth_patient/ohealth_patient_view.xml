@@ -29,9 +29,9 @@
                             <field name="photo" widget='image' class="oe_left oe_avatar"/> 
                             <div> 
                                  <h1> 
-		                            <field name="first_name" placeholder="First Name" style="width: 20%%" on_change="onchange_name(first_name, lastname, slastname, context)"  /> 
-		                            <!--  field name="lastname" placeholder="Last Name" style="width: 20%%" on_change="onchange_name(first_name, lastname, slastname, context)" /> 
-		                            <field name="slastname" placeholder="S Last Name" style="width: 20%%" on_change="onchange_name(first_name, lastname, slastname, context)" / --> 
+		                            <field name="first_name" placeholder="First Name" style="width: 50%%" on_change="onchange_name(first_name, lastname, slastname, context)"  />
+		                            <field name="lastname" placeholder="Last Name" style="width: 2%%" on_change="onchange_name(first_name, lastname, slastname, context)"  invisible="1"/> 
+		                            <field name="slastname" placeholder="S Last Name" style="width: 2%%" on_change="onchange_name(first_name, lastname, slastname, context)" invisible="1"/> 
 	                            </h1> 
                             </div> 
      						<div> 
@@ -42,9 +42,9 @@
      							<label for="identification_code"/> 
      							<field name="identification_code" style="width: 17%%"/> 
      						</div> 
-     						<div> 
+     					 	<div> 
      							<field name="name" invisible="1"/> 
-     						</div> 
+     						</div>
                             <div>
      							<label for="dob"/> 
      							<field name="dob" style="width: 30%%"/> 
